@@ -1,16 +1,33 @@
-# React + Vite
+# React Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to your **React Playground** — a beautifully designed workspace tailored for learning, experimenting, and mastering modern React concepts.
 
-Currently, two official plugins are available:
+![React Playground Home Page](./public/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This project provides a clean, zero-configuration environment pre-built with typical development lifecycles and modern front-end tooling. Whether you're exploring hooks like `useState` and `useEffect`, or moving onto advanced state management and performance tuning, this playground serves as an interactive sandbox.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Features
+- 🚀 **Vite + React 19** for a lightning-fast development server.
+- ✨ **Premium Aesthetics**: Engineered with custom styling including glassmorphism layouts, subtle CSS animations, and curated Google Fonts (*Outfit*).
+- 🌓 **Dynamic Theming**: An interactive toggle seamless switches between Dark and Light mode reading experiences.
+- 🧰 **Pre-configured Concept Demonstrations**: Immediate sandbox setups demonstrating:
+  - State Persistence (`useState`)
+  - Simulating Async Lifecycle Events (`useEffect`)
+  - Interactive Forms and Derived React Keys
 
-## Expanding the ESLint configuration
+## Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Run Local Server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Explore and Play**
+   Open [http://localhost:5173](http://localhost:5173) in your browser. All interactive components and logic resides in `src/App.jsx`. Edit the file to immediately see HMR (Hot Module Replacement) kick in.
